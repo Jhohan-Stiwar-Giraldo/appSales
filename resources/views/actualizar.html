@@ -1,0 +1,95 @@
+<html>
+
+<body>
+            <div class="inputs w-full max-w-2xl p-6 mx-auto bg-gray-200 min-h-screen pt-2 font-sans mb-20">
+                <form class="mt-6 border-t border-gray-400 pt-4">
+                    
+                    <div class="personal w-full border-t border-gray-400 pt-4">                        
+                        <div class="flex items-center justify-between mt-4">
+                            <div class='w-full md:w-1/2 px-3 mb-6'>
+                                <label class='block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2'>Nombres</label>
+                                <input id="nombres"
+                                    class='appearance-none block w-full bg-white text-gray-700 border border-gray-400 shadow-inner rounded-md py-3 px-4 leading-tight focus:outline-none  focus:border-gray-500'
+                                    type='text' required>
+                            </div>
+                            <div id="apellidos" class='w-full md:w-1/2 px-3 mb-6'>
+                                <label class='block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2'>Apellidos</label>
+                                <input
+                                    class='appearance-none block w-full bg-white text-gray-700 border border-gray-400 shadow-inner rounded-md py-3 px-4 leading-tight focus:outline-none  focus:border-gray-500'
+                                    type='text' required>
+                            </div>
+                        </div>
+                        
+                        <div class='w-full md:w-full px-3 mb-6'>
+                            <label class='block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2'>Usuario</label>
+                            <input id="apellidos"
+                                class='appearance-none block w-full bg-white text-gray-700 border border-gray-400 shadow-inner
+                                 rounded-md py-3 px-4 leading-tight focus:outline-none focus:border-gray-500'
+                                type='text' required>
+                        </div>
+                        
+                        
+                        <div class='w-full md:w-full px-3 mb-6'>
+                            <label class='block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2'>Contraseña</label>
+                            <input id="contra"
+                                class='appearance-none block w-full bg-white text-gray-700 border border-gray-400 
+                                shadow-inner rounded-md py-3 px-4 leading-tight focus:outline-none  focus:border-gray-500'
+                                type='password' required>
+                        </div>
+                      
+                        <div class='w-full md:w-full px-3 mb-6 '>
+                            <label class='block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2'>Verificar Contraseña</label>
+                                <input id="contraVerificacion"
+                                class='appearance-none block w-full bg-white text-gray-700 border border-gray-400 
+                                shadow-inner rounded-md py-3 px-4 leading-tight focus:outline-none focus:border-gray-500'
+                                type='password' required>
+                        </div>
+                        
+                    </div>
+
+                    <div class='w-full md:w-full px-3 mb-6'>
+                        <label class='block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2'>Departamento</label>
+                        <div class="flex-shrink w-full inline-block relative">
+                            <select id="departamentos" data-indice="selectDepartamentos"
+                                class="block appearance-none text-gray-600 w-full bg-white border border-gray-400 shadow-inner px-4 py-2 pr-8 rounded">
+                                
+                                
+                            </select>
+                            <div
+                                class="pointer-events-none absolute top-0 mt-3  right-0 flex items-center px-2 text-gray-600">
+                                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 20 20">
+                                    <path
+                                        d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class='w-full md:w-full px-3 mb-6'>
+                        <label class='block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2'>Ciudad</label>
+                        <div class="flex-shrink w-full inline-block relative">
+                            <select id="ciudades" data-indice="selectCiudades"
+                                class="block appearance-none text-gray-600 w-full bg-white border border-gray-400 shadow-inner px-4 py-2 pr-8 rounded">
+                                
+                                
+                            </select>
+                            <div
+                                class="pointer-events-none absolute top-0 mt-3  right-0 flex items-center px-2 text-gray-600">
+                                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 20 20">
+                                    <path
+                                        d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <button id="btnActualizar"
+                        class="appearance-none bg-gray-200 text-gray-900 px-2 py-1 shadow-sm border border-gray-400 rounded-md ">Guardar</button>
+                </form>
+            </div>
+        
+</body>
+
+</html>

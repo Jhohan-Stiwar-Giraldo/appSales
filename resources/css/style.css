@@ -1,0 +1,22 @@
+
+body {
+    font-family: "Rubik", sans-serif;
+  }
+  
+  #menu-toggle:checked + #menu {    /* ver seudoclase :checked */
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-menu,   /* ver seudoclase :hover */
+  .dropdown:active .dropdown-menu { /* ver seudoclase :active */
+    display: block;
+  }
+  
+  .modal {
+    transition: opacity 0.25s ease;
+  }
+  
+  body.modal-active {
+    overflow-x: hidden;
+    overflow-y: visible !important;
+  }

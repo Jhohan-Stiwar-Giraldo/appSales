@@ -1,0 +1,26 @@
+{
+  "name": "apps6",
+  "version": "0.1.0",
+  "description": "Demostración Inicial de Programación Web Dinámica",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/MiguelCuellarRomero/apps6/src"
+  },
+  "keywords": [
+    "JavaScript",
+    "Normalize.css",
+    "HTML"
+  ],
+  "author": "Miguel Angel Cuellar",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/MiguelCuellarRomero/apps6/src#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.1",
+    "normalize.css": "^8.0.1",
+    "tailwindcss": "^1.4.6"
+  }
+}

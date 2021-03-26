@@ -1,0 +1,85 @@
+<html>
+
+<body>
+
+    <div class="container mx-auto flex flex-wrap items-center mb-4">
+        <div class="flex-1 flex justify-between items-center">
+            <a href="#" class="text-xl font-semibold text-green-100 hover:text-white tracking-normal">
+                DI-2020-1
+            </a>
+        </div>
+
+        <label for="menu-toggle" class="pointer-cursor md:hidden block">
+            <i class="fa fa-2x fa-bars ill-current text-gray-300 hover:text-white"></i>
+        </label>
+
+        <input class="hidden" type="checkbox" id="menu-toggle" />
+
+        <div class="hidden md:flex md:items-center md:w-auto w-full" id="menu">
+            <nav>
+                <ul class="md:flex items-center justify-between text-base pt-4 md:pt-0">
+                    <li>
+                        <a  id="menu-productos"
+                            class="md:px-4 py-2 md:py-4 px-0 block text-green-100 hover:text-white md:hover:bg-green-800"
+                            href="">
+                            Productos
+                        </a>
+                    </li>
+
+                    <li>
+                        <a  id="menu-carrito"    
+                            class="md:px-4 py-2 md:py-4 px-0 block text-green-100 hover:text-white md:hover:bg-green-800"
+                            href="">Carrito de compras
+                        </a>
+                    </li>
+
+                    <li>
+                        <a id="menu-contactenos"
+                            class="md:px-4 py-2 md:py-4 px-0 block text-green-100 hover:text-white md:hover:bg-green-800"
+                            href="">Contáctenos
+                        </a>
+                    </li>
+
+                    <li>
+                        <a  id="menu-quienes-somos"
+                            class="md:px-4 py-2 md:py-4 px-0 block text-green-100 hover:text-white md:hover:bg-green-800"
+                            href="">Quiénes somos
+                        </a>
+                    </li>
+
+                    <li class="dropdown inline-block relative w-full md:w-auto md:mb-0 mb-2">
+
+                        <a  id="menu-usuario"
+                            class="md:px-4 py-2 md:py-4 px-0 block text-green-100 hover:text-white md:hover:bg-green-800 inline-flex items-center">
+                            <span class="mr-1">Usuarios</span>
+                            <i class="fas fa-angle-down fill-current h-4 w-4 mt-1"></i>
+                        </a>
+
+                        <ul 
+                            class="dropdown-menu absolute z-50 md:right-0 hidden text-gray-700 md:-mt-4 md:pt-3 pt-1 shadow-lg">
+                            <li 
+                                class=""><a id="usuario-actualizar" class="rounded-t bg-white hover:bg-gray-100 py-2 px-4 block whitespace-no-wrap"
+                                href="">Actualizar datos</a>
+                            </li>
+                            <li 
+                                class=""><a  id="usuario-contraseña" class="bg-white hover:bg-gray-100 py-2 px-4 block whitespace-no-wrap"
+                                href="">Cambio de contraseña</a>
+                            </li>
+                            <li class=""><a class="rounded-b bg-white hover:bg-gray-100 py-2 px-4 block whitespace-no-wrap"
+                                href="">Cerrar sesión</a></li>
+                        </ul>
+                    </li>
+                    <!-- 
+                            <li>
+                                <a href="" class="md:ml-4 flex items-center justify-start pointer-cursor">
+                                    <img class="rounded-full w-6 h-6 bg-green-800" src="./resources/assets/images/mifoto.jpg">
+                                </a>
+                            </li> 
+                        -->
+                </ul>
+            </nav>
+        </div>
+    </div>
+</body>
+
+</html>

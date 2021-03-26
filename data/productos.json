@@ -1,0 +1,56 @@
+[
+  {
+    "id": "PRD01",
+    "referencia": "Asus 7821",
+    "disponible": 4,
+    "precio": 3000000,
+    "resumen": "Procesador Intel® Core™ i7-1065G7 1.3 GHz, sistema operativo Windows 10",
+    "detalles": "Procesador Intel® Core™ i7-1065G7 Processor 1.3 GHz (8M Cache, up to 3.9 GHz), sistema operativo Windows 10 Home 64 bits, memoria RAM: 4 GB, disco sólido 256 Gb., pantalla: 15.6\" pulgadas.",
+    "imagen": "portatil1.jpg"
+  },
+  {
+    "id": "PRD02",
+    "referencia": "HP 1547LA",
+    "disponible": 10,
+    "precio": 2700000,
+    "resumen": "Procesador Intel® Core™ i5-106005 1.2 GHz, sistema operativo Windows 10",
+    "detalles": "Procesador Intel® Core™ i5-106005 Processor 1.2 GHz (8M Cache, up to 3.9 GHz), sistema operativo Windows 10 Home 64 bits, memoria RAM: 4 GB, disco sólido 256 Gb., pantalla: 14\" pulgadas.",
+    "imagen": "portatil2.png"
+  },
+  {
+    "id": "PRD03",
+    "referencia": "MacBook Pro",
+    "disponible": 5,
+    "precio": 5000000,
+    "resumen": "Procesador Intel® Core™ i7-101117 1.4 GHz, sistema operativo Windows 10",
+    "detalles": "Procesador Intel® Core™ i7-101117 Processor 1.4 GHz (8M Cache, up to 3.9 GHz), sistema operativo Windows 10 Home 64 bits, memoria RAM: 4 GB, disco sólido 512 Gb., pantalla: 15.6\" pulgadas.",
+    "imagen": "portatil3.png"
+  },
+  {
+    "id": "PRD04",
+    "referencia": "TV SAMSUNG 70\"",
+    "disponible": 7,
+    "precio": 1000000,
+    "resumen": "HDR+, PurColour, SmartThings",
+    "detalles": "HDR+ ajusta los niveles de contraste multicapa, PurColour: Obtén una experiencia de visión más colorida. SmartThings, solo una aplicación para todo One Depth: contenido para ti en una sola pantalla UHD Dimming:Color, nitidez y contraste optimizados.",
+    "imagen": "tv1.jpg"
+  },
+  {
+    "id": "PRD05",
+    "referencia": "TV LG 70\"",
+    "disponible": 20,
+    "precio": 1000000,
+    "resumen": "incluye un procesador que elimina el ruido y la borrosidad",
+    "detalles": "incluye un procesador que elimina el ruido y la borrosidad para crear colores y contrastes más vibrantes. Las imágenes de baja resolución se mejoran y se reproducen con una calidad cercana a 4K. El LG AI ThinQ inteligente te hace la vida aún más conveniente. *El reconocimiento de voz natural te permite ordenar y controlar tu ecosistema. ",
+    "imagen": "tv2.jpg"
+  },
+  {
+    "id": "PRD06",
+    "referencia": "TV LG 55\"",
+    "disponible": 30,
+    "precio": 1000000,
+    "resumen": "Procesador de cuatro núcleos que potencia imagen y sonido",
+    "detalles": "Procesador de cuatro núcleos que potencia imagen y sonido. AI ThinQ: Inteligencia artificial en su máxima expresión. Bajo retraso de entrada. Mejora experiencia de juegos. webOS. Mas servicios de video streaming agregados. Ultra envolvente.Múltiples canales de audio virtuales.",
+    "imagen": "tv3.jpg"
+  }
+]
